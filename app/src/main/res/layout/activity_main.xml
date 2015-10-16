@@ -30,10 +30,22 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email"
         app:backgroundTint="@color/colorAccent"
-        app:fabSize="normal"
-        app:rippleColor="@color/color_rip"
         app:elevation="@dimen/activity_vertical_margin"
-        android:src="@android:drawable/ic_dialog_email"/>
+        app:fabSize="normal"
+        app:rippleColor="@color/color_rip"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="65dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
 
 </android.support.design.widget.CoordinatorLayout>
